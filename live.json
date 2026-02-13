@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-13T23:47:21.714Z",
+  "generated_at": "2026-02-13T23:52:40.570Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 9.9,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.53,
-    "mem_free_gb": 0.47,
+    "mem_used_gb": 15.08,
+    "mem_free_gb": 0.92,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 148,
-    "load_avg": "[2.44,2.62,2.56]",
-    "uptime_seconds": 225850
+    "load_avg": "[2.38,2.46,2.49]",
+    "uptime_seconds": 226167
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 6104,
     "uptime": null,
-    "created_at": "2026-02-13T23:47:21.714Z"
+    "created_at": "2026-02-13T23:52:40.570Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-13T23:47:21.714Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-13T23:47:21.714Z"
+      "updated_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "offline",
-      "updated_at": "2026-02-13T23:47:21.714Z"
+      "updated_at": "2026-02-13T23:52:40.570Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2. **🚨 Agent Errors** — Added to Overview: service health indicators (6 services), error log with severity/source/count, expandable",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "5. **⚡ Rich Activity Feed** — Category filters (sync/deployment/task/error/cron/gateway/message/exec/file), sort by time/category, costs & durations",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "- `schema.sql` — 3 new tables: `calendar_events`, `agent_errors`, `service_health`",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "- `sync.js` — Service health checks (curl + SSH), gateway error log parsing, calendar from crontab",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T05:18:18.027Z Dashboard v2 is expanded — added calendar view, agent error monitoring, global search, richer session details, and activity feed with filters. It's live at https://carayim-dev.github.io/cara-hq/ 🐾",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T05:29:46.976Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=FailoverError: LLM request timed out. runId=59daf88a-0a5d-421c-bb1e-b83949750f36 error=FailoverError: LLM request timed out. conn=787a1e6b…b229 id=bad3d4b1…efd1",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T05:29:46.976Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=FailoverError: No available auth profile for anthropic (all in cooldown or unavailable). runId=88d801dd-e703-4da6-8712-25cc7a47a1a6 error=FailoverError: No available auth profile for anthropic (all in cooldown or unavailable). conn=5b42c1d5…5171 id=45c18a69…9b9c",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T05:30:03.047Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) runId=c42f10ed-85e4-46d2-b726-85f359b9277b error=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) conn=049ea356…3b76 id=877e6e83…497b",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T18:18:36.328Z [ws] ⇄ res ✗ send 185ms errorCode=UNAVAILABLE errorMessage=Error: An API error occurred: channel_not_found channel=slack error=Error: An API error occurred: channel_not_found: code=slack_webapi_platform_error conn=4a076e29…0e8d id=da8b92f4…632f",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     },
     {
       "message": "2026-02-13T18:25:57.829Z [ws] ⇄ res ✗ sessions.patch 9ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=d1a1cf91…a627 id=5da70df7…733b",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-13T23:47:21.715Z"
+      "created_at": "2026-02-13T23:52:40.570Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-13T23:47:15.492Z"
+      "last_check": "2026-02-13T23:52:34.377Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": false,
       "http_code": "timeout",
-      "last_check": "2026-02-13T23:47:20.604Z"
+      "last_check": "2026-02-13T23:52:39.479Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-13T23:47:15.236Z"
+      "last_check": "2026-02-13T23:52:34.203Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-13T23:47:14.909Z"
+      "last_check": "2026-02-13T23:52:33.843Z"
     }
   ]
 }
