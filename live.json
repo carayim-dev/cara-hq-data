@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T08:28:26.985Z",
+  "generated_at": "2026-02-15T08:33:35.576Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 13.9,
@@ -9,15 +9,15 @@
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 145,
-    "load_avg": "[2.38,2.65,2.65]",
-    "uptime_seconds": 343524
+    "load_avg": "[2.24,2.41,2.53]",
+    "uptime_seconds": 343832
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 58119,
     "uptime": null,
-    "created_at": "2026-02-15T08:28:26.985Z"
+    "created_at": "2026-02-15T08:33:35.576Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-15T08:28:26.985Z"
+      "updated_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-15T08:28:26.985Z"
+      "updated_at": "2026-02-15T08:33:35.576Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-15T00:03:54.911-08:00 Still on login page, no error message shown, no redirect. This is suspicious — either login is silently failing with no error feedback, or the password field isn't being populated correctly. Let me check the console for errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "2026-02-15T00:03:54.913-08:00 Still on login page. Let me check if there's an error message now:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "2026-02-15T00:03:54.913-08:00 There IS an error: **\"Invalid email or password\"** — it's just not visible in the snapshot (might be hidden or positioned off-screen, or too small). The login is properly rejecting the credentials. This could mean either:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "2. Or the account doesn't exist (e.g., signup had an error we didn't notice)",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "Let me check if this is a display bug for the error message and verify the error is actually visible to users:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "2026-02-15T00:03:54.914-08:00 The error IS visible (58px tall, visible, opacity 1) — it's just not captured in the aria snapshot for some reason. The login error message is: **\"Invalid email or password\"**.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "4. **Login error message not in aria tree** — The \"Invalid email or password\" error exists in DOM and is visually rendered (58×355px, visible) but doesn't appear in the accessibility tree snapshot. May indicate missing ARIA role or semantic markup issue.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "6. **Static files returning 403** — `/static/manifest.json` and `/static/favicon.png` return 403 on every page load (dozens of errors in console).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "7. **Study guide API 404** — `/api/study-guide/mark-complete/` returns 404, with a JSON parse error (HTML returned instead of JSON).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     },
     {
       "message": "8. **Signup 500 errors** — Multiple 500 errors seen on `/teas/signup/` in console logs (possibly from initial signup attempts with duplicate emails).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T08:28:26.985Z"
+      "created_at": "2026-02-15T08:33:35.576Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T08:28:25.592Z"
+      "last_check": "2026-02-15T08:33:34.093Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-15T08:28:25.893Z"
+      "last_check": "2026-02-15T08:33:34.410Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T08:28:25.426Z"
+      "last_check": "2026-02-15T08:33:33.831Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-15T08:28:25.141Z"
+      "last_check": "2026-02-15T08:33:33.543Z"
     }
   ]
 }
