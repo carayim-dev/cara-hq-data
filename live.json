@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-15T07:57:35.373Z",
+  "generated_at": "2026-02-15T08:02:44.272Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 13.8,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.56,
-    "mem_free_gb": 0.44,
+    "mem_used_gb": 15.79,
+    "mem_free_gb": 0.21,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 145,
-    "load_avg": "[2.46,2.39,2.34]",
-    "uptime_seconds": 341673
+    "load_avg": "[2.32,2.31,2.31]",
+    "uptime_seconds": 341981
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 58119,
     "uptime": null,
-    "created_at": "2026-02-15T07:57:35.373Z"
+    "created_at": "2026-02-15T08:02:44.272Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-15T07:57:35.373Z"
+      "created_at": "2026-02-15T08:02:44.272Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-15T07:57:35.373Z"
+      "updated_at": "2026-02-15T08:02:44.272Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-15T07:57:35.373Z"
+      "updated_at": "2026-02-15T08:02:44.272Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-15T01:12:53.877Z [ws] ⇄ res ✗ sessions.patch 6ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=fa7b5b42…d905 id=a3e1977d…e47d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.373Z"
+      "created_at": "2026-02-15T08:02:44.272Z"
     },
     {
       "message": "2026-02-14T20:48:23.415-08:00 No changes? That means the committed version is the same as what's on disk. But earlier we found syntax errors... Let me re-check:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.373Z"
+      "created_at": "2026-02-15T08:02:44.272Z"
     },
     {
       "message": "2026-02-14T23:46:42.712-08:00 🚨 **500 error on signup!** Let me screenshot this and check server logs.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.272Z"
     },
     {
       "message": "2026-02-14T23:46:42.712-08:00 Let me check the server logs to understand the 500 error:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.272Z"
     },
     {
       "message": "2026-02-14T23:46:42.713-08:00 No local TEAS server — it's hosted remotely. The 500 is a production server error. Let me retry once, and also check if the issue is consistent:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     },
     {
       "message": "2026-02-14T23:46:42.713-08:00 **500 error on signup is consistent and reproducible.** This is a critical blocker — signup is broken on production. This blocks Flow 1, Flow 2, and partially Flow 3. Let me check if login works with existing credentials, and also check the browser console for error details:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     },
     {
       "message": "2026-02-14T23:46:42.714-08:00 \"Invalid email or password\" — the test password doesn't match. I don't have the real password for cara@bluemoonventures.com. And signup is broken (500 error), so I can't create a new test account either. This means all purchase flows are blocked.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     },
     {
       "message": "1. **Signup 500 Error** — `/teas/signup/` POST returns 500 consistently. No new users can register. Reproduced twice.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     },
     {
       "message": "- Flows 1 & 2: Full purchase flow, question answering across subjects, dashboard/progress verification, and re-login testing — all blocked by the 500 signup error.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     },
     {
       "message": "2026-02-14T23:46:47.206-08:00 E2E test on the TEAS platform finished. Two critical issues: **signup is broken** (500 error, no new users can register) and **promo code NURSE50 isn't carrying the discount to Stripe checkout** — shows full $19.99 instead of $9.99. Everything else looks solid — landing pages, nav, login/logout, access control all passing. Want me to dig into the signup 500 first?",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:57:35.374Z"
+      "created_at": "2026-02-15T08:02:44.273Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T07:57:33.905Z"
+      "last_check": "2026-02-15T08:02:42.779Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-15T07:57:34.260Z"
+      "last_check": "2026-02-15T08:02:43.128Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T07:57:33.740Z"
+      "last_check": "2026-02-15T08:02:42.506Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-15T07:57:33.377Z"
+      "last_check": "2026-02-15T08:02:42.187Z"
     }
   ]
 }
