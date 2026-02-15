@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-15T23:31:48.359Z",
+  "generated_at": "2026-02-15T23:36:56.328Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 15.2,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.21,
-    "mem_free_gb": 0.79,
+    "mem_used_gb": 15.37,
+    "mem_free_gb": 0.63,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 144,
-    "load_avg": "[2.74,2.68,2.63]",
-    "uptime_seconds": 397728
+    "load_avg": "[6.37,3.45,2.9]",
+    "uptime_seconds": 398035
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 2868,
     "uptime": null,
-    "created_at": "2026-02-15T23:31:48.359Z"
+    "created_at": "2026-02-15T23:36:56.328Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-15T23:31:48.359Z"
+      "updated_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-15T23:31:48.359Z"
+      "updated_at": "2026-02-15T23:36:56.328Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "8. **Signup 500 errors** — Multiple 500 errors seen on `/teas/signup/` in console logs (possibly from initial signup attempts with duplicate emails).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T00:35:17.922-08:00 CSRF error - the JS manipulation likely invalidated the token. Let me reload the page and use Playwright's type action instead, working field by field with fresh snapshots.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T00:35:17.927-08:00 Clear screenshot showing the error. Now let me check if the app's Stripe configuration can be verified. The checkout URL has `cs_live_` prefix — this confirms the Stripe API keys being used are LIVE keys, not test keys (`cs_test_` would be expected for test mode).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T00:49:44.288-08:00 Step 21 PASS — practice test works for anonymous users. Now Flow 5: Nav links and console errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "Step 23 — Console errors: only `icon-192.png` 403s from `/static/` — known CloudFront cache issue. No real errors. PASS.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "| 23 | Console errors: only icon-192.png 403s (known CloudFront issue) | ✅ PASS |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "**All non-payment flows working correctly.** No real console errors (only known CloudFront static asset 403s). Mobile responsive layout confirmed. Signup → login → logout → access control all functioning as expected.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T12:01:29.177-08:00 The study plan endpoint needs CSRF. That's expected - it requires login and CSRF. The plan generation with focused diagnostics will work when called from the browser. Let me verify by checking the Heroku logs for any errors:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T12:01:29.178-08:00 Everything looks clean — no errors. Let me now take a screenshot of the quiz UI working:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     },
     {
       "message": "2026-02-15T14:53:09.285-08:00 The error is because Heroku shell has issues with quotes/backslashes in the f-string. Let me simplify:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T23:31:48.359Z"
+      "created_at": "2026-02-15T23:36:56.328Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T23:31:46.812Z"
+      "last_check": "2026-02-15T23:36:54.847Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-15T23:31:47.220Z"
+      "last_check": "2026-02-15T23:36:55.242Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T23:31:46.631Z"
+      "last_check": "2026-02-15T23:36:54.599Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-15T23:31:46.245Z"
+      "last_check": "2026-02-15T23:36:54.265Z"
     }
   ]
 }
