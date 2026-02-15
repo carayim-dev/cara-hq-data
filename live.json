@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-15T10:52:11.092Z",
+  "generated_at": "2026-02-15T10:57:19.992Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 14.2,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.65,
-    "mem_free_gb": 0.35,
+    "mem_used_gb": 15.06,
+    "mem_free_gb": 0.94,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 145,
-    "load_avg": "[2.98,2.89,2.91]",
-    "uptime_seconds": 352149
+    "load_avg": "[2.93,2.92,2.9]",
+    "uptime_seconds": 352457
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 58119,
     "uptime": null,
-    "created_at": "2026-02-15T10:52:11.092Z"
+    "created_at": "2026-02-15T10:57:19.992Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-15T10:52:11.092Z"
+      "updated_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-15T10:52:11.092Z"
+      "updated_at": "2026-02-15T10:57:19.992Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "4. **Login error message not in aria tree** — The \"Invalid email or password\" error exists in DOM and is visually rendered (58×355px, visible) but doesn't appear in the accessibility tree snapshot. May indicate missing ARIA role or semantic markup issue.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "6. **Static files returning 403** — `/static/manifest.json` and `/static/favicon.png` return 403 on every page load (dozens of errors in console).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "7. **Study guide API 404** — `/api/study-guide/mark-complete/` returns 404, with a JSON parse error (HTML returned instead of JSON).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "8. **Signup 500 errors** — Multiple 500 errors seen on `/teas/signup/` in console logs (possibly from initial signup attempts with duplicate emails).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "2026-02-15T00:35:17.922-08:00 CSRF error - the JS manipulation likely invalidated the token. Let me reload the page and use Playwright's type action instead, working field by field with fresh snapshots.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "2026-02-15T00:35:17.927-08:00 Clear screenshot showing the error. Now let me check if the app's Stripe configuration can be verified. The checkout URL has `cs_live_` prefix — this confirms the Stripe API keys being used are LIVE keys, not test keys (`cs_test_` would be expected for test mode).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "2026-02-15T00:49:44.288-08:00 Step 21 PASS — practice test works for anonymous users. Now Flow 5: Nav links and console errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "Step 23 — Console errors: only `icon-192.png` 403s from `/static/` — known CloudFront cache issue. No real errors. PASS.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "| 23 | Console errors: only icon-192.png 403s (known CloudFront issue) | ✅ PASS |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     },
     {
       "message": "**All non-payment flows working correctly.** No real console errors (only known CloudFront static asset 403s). Mobile responsive layout confirmed. Signup → login → logout → access control all functioning as expected.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T10:52:11.092Z"
+      "created_at": "2026-02-15T10:57:19.992Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T10:52:09.692Z"
+      "last_check": "2026-02-15T10:57:18.524Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-15T10:52:09.992Z"
+      "last_check": "2026-02-15T10:57:18.865Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T10:52:09.516Z"
+      "last_check": "2026-02-15T10:57:18.254Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-15T10:52:09.170Z"
+      "last_check": "2026-02-15T10:57:17.889Z"
     }
   ]
 }
