@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-15T07:42:09.904Z",
+  "generated_at": "2026-02-15T07:47:18.707Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 13.8,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.54,
-    "mem_free_gb": 0.46,
+    "mem_used_gb": 15.41,
+    "mem_free_gb": 0.59,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 145,
-    "load_avg": "[2.26,2.31,2.3]",
-    "uptime_seconds": 340748
+    "load_avg": "[2.51,2.35,2.31]",
+    "uptime_seconds": 341055
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 58119,
     "uptime": null,
-    "created_at": "2026-02-15T07:42:09.904Z"
+    "created_at": "2026-02-15T07:47:18.707Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-15T07:42:09.904Z"
+      "created_at": "2026-02-15T07:47:18.707Z"
     }
   ],
   "fleet": [
@@ -34,76 +34,76 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-15T07:42:09.904Z"
+      "updated_at": "2026-02-15T07:47:18.707Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-15T07:42:09.904Z"
+      "updated_at": "2026-02-15T07:47:18.707Z"
     }
   ],
   "calendar": [],
   "errors": [
     {
-      "message": "2026-02-14T05:24:03.685Z [ws] ⇄ res ✗ config.patch 2ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=d90458b5…f7b6 id=48acb044…033b",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "2026-02-14T08:06:21.688Z The dashboard is live and working. It's fetching real data from `live.json` — showing gateway status (RUNNING), system stats (CPU 11%, Memory 96%), fleet nodes (cara online, fox offline), service health, and error logs. No credentials exposed.",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "3. **Ran sync successfully** — `sync.js` collected system stats, gateway health, fleet status, service health, errors, and pushed `live.json` to GitHub (16s)",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "5. **Verified dashboard works** — https://carayim-dev.github.io/cara-hq/ loads, password `cara` works, shows live data (gateway running, CPU/memory/disk, fleet, errors, services)",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "2026-02-14T18:50:42.256Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=FailoverError: LLM request timed out. runId=160ea5cb-4115-4b13-952d-d271663f502e error=FailoverError: LLM request timed out. conn=74f00263…1cdf id=b89decb8…e870",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "2026-02-14T18:50:43.139Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) runId=04379f3d-884a-45fb-bb9a-6cb1d247e3ce error=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) conn=be784e02…67fb id=1d54a3b0…df5f",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "2026-02-14T22:19:19.380Z [ws] ⇄ res ✗ sessions.patch 4ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=ba871c72…2b84 id=336d9bf0…16c4",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
-      "message": "2026-02-15T01:12:53.828Z [ws] ⇄ res ✗ sessions.patch 5ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=f15487ac…690b id=80d9b427…70b7",
-      "severity": "error",
-      "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
-    },
-    {
       "message": "2026-02-15T01:12:53.877Z [ws] ⇄ res ✗ sessions.patch 6ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=fa7b5b42…d905 id=a3e1977d…e47d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
+      "created_at": "2026-02-15T07:47:18.708Z"
     },
     {
       "message": "2026-02-14T20:48:23.415-08:00 No changes? That means the committed version is the same as what's on disk. But earlier we found syntax errors... Let me re-check:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-15T07:42:09.904Z"
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:42.712-08:00 🚨 **500 error on signup!** Let me screenshot this and check server logs.",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:42.712-08:00 Let me check the server logs to understand the 500 error:",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:42.713-08:00 No local TEAS server — it's hosted remotely. The 500 is a production server error. Let me retry once, and also check if the issue is consistent:",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:42.713-08:00 **500 error on signup is consistent and reproducible.** This is a critical blocker — signup is broken on production. This blocks Flow 1, Flow 2, and partially Flow 3. Let me check if login works with existing credentials, and also check the browser console for error details:",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:42.714-08:00 \"Invalid email or password\" — the test password doesn't match. I don't have the real password for cara@bluemoonventures.com. And signup is broken (500 error), so I can't create a new test account either. This means all purchase flows are blocked.",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "1. **Signup 500 Error** — `/teas/signup/` POST returns 500 consistently. No new users can register. Reproduced twice.",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "- Flows 1 & 2: Full purchase flow, question answering across subjects, dashboard/progress verification, and re-login testing — all blocked by the 500 signup error.",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
+    },
+    {
+      "message": "2026-02-14T23:46:47.206-08:00 E2E test on the TEAS platform finished. Two critical issues: **signup is broken** (500 error, no new users can register) and **promo code NURSE50 isn't carrying the discount to Stripe checkout** — shows full $19.99 instead of $9.99. Everything else looks solid — landing pages, nav, login/logout, access control all passing. Want me to dig into the signup 500 first?",
+      "severity": "error",
+      "source": "gateway",
+      "created_at": "2026-02-15T07:47:18.708Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T07:42:08.417Z"
+      "last_check": "2026-02-15T07:47:17.248Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-15T07:42:08.764Z"
+      "last_check": "2026-02-15T07:47:17.600Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-15T07:42:08.154Z"
+      "last_check": "2026-02-15T07:47:17.070Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-15T07:42:07.805Z"
+      "last_check": "2026-02-15T07:47:16.582Z"
     }
   ]
 }
