@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-16T23:33:03.455Z",
+  "generated_at": "2026-02-16T23:38:10.021Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 16.2,
     "mem_total_gb": 16,
-    "mem_used_gb": 13.9,
-    "mem_free_gb": 2.1,
+    "mem_used_gb": 13.91,
+    "mem_free_gb": 2.09,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 143,
-    "load_avg": "[2.31,2.4,2.45]",
-    "uptime_seconds": 484203
+    "load_avg": "[2.4,2.39,2.42]",
+    "uptime_seconds": 484510
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 13953,
     "uptime": null,
-    "created_at": "2026-02-16T23:33:03.455Z"
+    "created_at": "2026-02-16T23:38:10.021Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-16T23:33:03.455Z"
+      "created_at": "2026-02-16T23:38:10.021Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-16T23:33:03.455Z"
+      "updated_at": "2026-02-16T23:38:10.021Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-16T23:33:03.455Z"
+      "updated_at": "2026-02-16T23:38:10.021Z"
     }
   ],
   "calendar": [],
@@ -50,25 +50,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-16T23:33:02.810Z"
+      "last_check": "2026-02-16T23:38:09.391Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-16T23:33:03.123Z"
+      "last_check": "2026-02-16T23:38:09.688Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-16T23:33:02.535Z"
+      "last_check": "2026-02-16T23:38:09.204Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-16T23:33:02.142Z"
+      "last_check": "2026-02-16T23:38:08.720Z"
     }
   ]
 }
