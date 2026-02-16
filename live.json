@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-16T19:21:37.263Z",
+  "generated_at": "2026-02-16T19:26:44.698Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 16,
     "mem_total_gb": 16,
-    "mem_used_gb": 13.86,
-    "mem_free_gb": 2.14,
+    "mem_used_gb": 13.81,
+    "mem_free_gb": 2.19,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 143,
-    "load_avg": "[2.64,2.65,2.66]",
-    "uptime_seconds": 469116
+    "load_avg": "[2.81,2.65,2.64]",
+    "uptime_seconds": 469424
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 99189,
     "uptime": null,
-    "created_at": "2026-02-16T19:21:37.264Z"
+    "created_at": "2026-02-16T19:26:44.698Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-16T19:21:37.264Z"
+      "updated_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-16T19:21:37.264Z"
+      "updated_at": "2026-02-16T19:26:44.698Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-15T00:35:17.927-08:00 Clear screenshot showing the error. Now let me check if the app's Stripe configuration can be verified. The checkout URL has `cs_live_` prefix — this confirms the Stripe API keys being used are LIVE keys, not test keys (`cs_test_` would be expected for test mode).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-15T00:49:44.288-08:00 Step 21 PASS — practice test works for anonymous users. Now Flow 5: Nav links and console errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "Step 23 — Console errors: only `icon-192.png` 403s from `/static/` — known CloudFront cache issue. No real errors. PASS.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "| 23 | Console errors: only icon-192.png 403s (known CloudFront issue) | ✅ PASS |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "**All non-payment flows working correctly.** No real console errors (only known CloudFront static asset 403s). Mobile responsive layout confirmed. Signup → login → logout → access control all functioning as expected.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-15T12:01:29.177-08:00 The study plan endpoint needs CSRF. That's expected - it requires login and CSRF. The plan generation with focused diagnostics will work when called from the browser. Let me verify by checking the Heroku logs for any errors:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-15T12:01:29.178-08:00 Everything looks clean — no errors. Let me now take a screenshot of the quiz UI working:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-15T14:53:09.285-08:00 The error is because Heroku shell has issues with quotes/backslashes in the f-string. Let me simplify:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-16T02:21:23.949Z [ws] ⇄ res ✗ sessions.patch 12ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=96051f84…ca93 id=ede61798…ea7d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.698Z"
     },
     {
       "message": "2026-02-16T07:49:03.504Z [ws] ⇄ res ✗ sessions.patch 10ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=9a9ace78…8006 id=ab0a15a6…e28a",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-16T19:21:37.264Z"
+      "created_at": "2026-02-16T19:26:44.699Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-16T19:21:35.751Z"
+      "last_check": "2026-02-16T19:26:43.199Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-16T19:21:36.086Z"
+      "last_check": "2026-02-16T19:26:43.500Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-16T19:21:35.558Z"
+      "last_check": "2026-02-16T19:26:42.897Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-16T19:21:35.194Z"
+      "last_check": "2026-02-16T19:26:42.582Z"
     }
   ]
 }
