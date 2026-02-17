@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-17T05:10:27.819Z",
+  "generated_at": "2026-02-17T05:15:34.574Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 16.4,
     "mem_total_gb": 16,
-    "mem_used_gb": 13.62,
-    "mem_free_gb": 2.38,
+    "mem_used_gb": 15.6,
+    "mem_free_gb": 0.4,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 143,
-    "load_avg": "[2.05,2.34,2.65]",
-    "uptime_seconds": 504448
+    "load_avg": "[2.3,2.12,2.43]",
+    "uptime_seconds": 504754
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 13953,
     "uptime": null,
-    "created_at": "2026-02-17T05:10:27.819Z"
+    "created_at": "2026-02-17T05:15:34.574Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-17T05:10:27.819Z"
+      "created_at": "2026-02-17T05:15:34.574Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-17T05:10:27.819Z"
+      "updated_at": "2026-02-17T05:15:34.574Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-17T05:10:27.820Z"
+      "updated_at": "2026-02-17T05:15:34.574Z"
     }
   ],
   "calendar": [],
@@ -50,25 +50,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T05:10:27.178Z"
+      "last_check": "2026-02-17T05:15:33.927Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-17T05:10:27.474Z"
+      "last_check": "2026-02-17T05:15:34.229Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T05:10:26.917Z"
+      "last_check": "2026-02-17T05:15:33.758Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-17T05:10:26.576Z"
+      "last_check": "2026-02-17T05:15:33.456Z"
     }
   ]
 }
