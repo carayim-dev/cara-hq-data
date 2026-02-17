@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-17T15:40:01.425Z",
+  "generated_at": "2026-02-17T15:45:08.875Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 16.6,
     "mem_total_gb": 16,
-    "mem_used_gb": 14.77,
-    "mem_free_gb": 1.23,
+    "mem_used_gb": 15.02,
+    "mem_free_gb": 0.98,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 145,
-    "load_avg": "[1.74,1.9,1.96]",
-    "uptime_seconds": 542219
+    "load_avg": "[2.14,2.12,2.04]",
+    "uptime_seconds": 542527
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 85210,
     "uptime": null,
-    "created_at": "2026-02-17T15:40:01.425Z"
+    "created_at": "2026-02-17T15:45:08.875Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-17T15:40:01.425Z"
+      "created_at": "2026-02-17T15:45:08.875Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-17T15:40:01.425Z"
+      "updated_at": "2026-02-17T15:45:08.875Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-17T15:40:01.425Z"
+      "updated_at": "2026-02-17T15:45:08.875Z"
     }
   ],
   "calendar": [],
@@ -49,7 +49,7 @@
       "message": "2026-02-17T07:56:00.298Z [ws] ⇄ res ✗ sessions.patch 18ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=0bf4da50…580f id=75931745…51bc",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-17T15:40:01.425Z"
+      "created_at": "2026-02-17T15:45:08.875Z"
     }
   ],
   "services": [
@@ -57,25 +57,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T15:40:00.697Z"
+      "last_check": "2026-02-17T15:45:08.043Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-17T15:40:01.007Z"
+      "last_check": "2026-02-17T15:45:08.430Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T15:40:00.531Z"
+      "last_check": "2026-02-17T15:45:07.768Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-17T15:39:59.850Z"
+      "last_check": "2026-02-17T15:45:07.419Z"
     }
   ]
 }
