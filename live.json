@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-17T03:38:21.344Z",
+  "generated_at": "2026-02-17T03:43:27.771Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 16.3,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.18,
-    "mem_free_gb": 0.82,
+    "mem_used_gb": 14.43,
+    "mem_free_gb": 1.57,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 143,
-    "load_avg": "[2.66,2.69,2.77]",
-    "uptime_seconds": 498921
+    "load_avg": "[2.7,2.84,2.81]",
+    "uptime_seconds": 499228
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 13953,
     "uptime": null,
-    "created_at": "2026-02-17T03:38:21.344Z"
+    "created_at": "2026-02-17T03:43:27.771Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-17T03:38:21.344Z"
+      "created_at": "2026-02-17T03:43:27.771Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-17T03:38:21.344Z"
+      "updated_at": "2026-02-17T03:43:27.771Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-17T03:38:21.344Z"
+      "updated_at": "2026-02-17T03:43:27.771Z"
     }
   ],
   "calendar": [],
@@ -50,25 +50,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T03:38:20.691Z"
+      "last_check": "2026-02-17T03:43:27.113Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-17T03:38:20.996Z"
+      "last_check": "2026-02-17T03:43:27.421Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-17T03:38:20.416Z"
+      "last_check": "2026-02-17T03:43:26.913Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-17T03:38:20.084Z"
+      "last_check": "2026-02-17T03:43:26.569Z"
     }
   ]
 }
