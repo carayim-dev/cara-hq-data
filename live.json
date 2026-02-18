@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-18T00:02:22.365Z",
+  "generated_at": "2026-02-18T00:07:30.760Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 17,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.63,
-    "mem_free_gb": 0.37,
+    "mem_used_gb": 15.67,
+    "mem_free_gb": 0.33,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 143,
-    "load_avg": "[2.74,2.68,2.75]",
-    "uptime_seconds": 572361
+    "load_avg": "[2.91,2.64,2.69]",
+    "uptime_seconds": 572668
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 85210,
     "uptime": null,
-    "created_at": "2026-02-18T00:02:22.365Z"
+    "created_at": "2026-02-18T00:07:30.760Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-18T00:02:22.365Z"
+      "created_at": "2026-02-18T00:07:30.760Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-18T00:02:22.365Z"
+      "updated_at": "2026-02-18T00:07:30.760Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-18T00:02:22.365Z"
+      "updated_at": "2026-02-18T00:07:30.760Z"
     }
   ],
   "calendar": [],
@@ -49,13 +49,13 @@
       "message": "2026-02-17T07:56:00.298Z [ws] ⇄ res ✗ sessions.patch 18ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=0bf4da50…580f id=75931745…51bc",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-18T00:02:22.365Z"
+      "created_at": "2026-02-18T00:07:30.760Z"
     },
     {
       "message": "2026-02-17T15:12:56.439-08:00 The outreach script has a query error. The `User` is related via `user` on `QuizCompletion`, not via `UserProfile`. Let me fix:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-18T00:02:22.365Z"
+      "created_at": "2026-02-18T00:07:30.760Z"
     }
   ],
   "services": [
@@ -63,25 +63,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-18T00:02:21.611Z"
+      "last_check": "2026-02-18T00:07:29.846Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-18T00:02:21.905Z"
+      "last_check": "2026-02-18T00:07:30.253Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-18T00:02:21.425Z"
+      "last_check": "2026-02-18T00:07:29.584Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-18T00:02:21.107Z"
+      "last_check": "2026-02-18T00:07:29.239Z"
     }
   ]
 }
