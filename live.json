@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-18T11:46:01.927Z",
+  "generated_at": "2026-02-18T11:51:11.596Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 17.7,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.93,
-    "mem_free_gb": 0.07,
+    "mem_used_gb": 14.96,
+    "mem_free_gb": 1.04,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 144,
-    "load_avg": "[4.72,3.94,3.41]",
-    "uptime_seconds": 614578
+    "load_avg": "[6.15,5.14,4.11]",
+    "uptime_seconds": 614888
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 85210,
     "uptime": null,
-    "created_at": "2026-02-18T11:46:01.927Z"
+    "created_at": "2026-02-18T11:51:11.596Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-18T11:46:01.927Z"
+      "created_at": "2026-02-18T11:51:11.596Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-18T11:46:01.927Z"
+      "updated_at": "2026-02-18T11:51:11.596Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-18T11:46:01.927Z"
+      "updated_at": "2026-02-18T11:51:11.596Z"
     }
   ],
   "calendar": [],
@@ -49,19 +49,19 @@
       "message": "2026-02-17T07:56:00.298Z [ws] ⇄ res ✗ sessions.patch 18ms errorCode=INVALID_REQUEST errorMessage=model not allowed: anthropic/claude-sonnet-4-20250514 conn=0bf4da50…580f id=75931745…51bc",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-18T11:46:01.927Z"
+      "created_at": "2026-02-18T11:51:11.596Z"
     },
     {
       "message": "2026-02-17T15:12:56.439-08:00 The outreach script has a query error. The `User` is related via `user` on `QuizCompletion`, not via `UserProfile`. Let me fix:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-18T11:46:01.927Z"
+      "created_at": "2026-02-18T11:51:11.596Z"
     },
     {
       "message": "2026-02-17T17:32:58.044-08:00 **Fix 15: Add proper error handling for missing `data/` directory**",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-18T11:46:01.927Z"
+      "created_at": "2026-02-18T11:51:11.596Z"
     }
   ],
   "services": [
@@ -69,25 +69,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-18T11:46:01.096Z"
+      "last_check": "2026-02-18T11:51:10.681Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-18T11:46:01.389Z"
+      "last_check": "2026-02-18T11:51:11.034Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-18T11:46:00.827Z"
+      "last_check": "2026-02-18T11:51:10.509Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-18T11:46:00.365Z"
+      "last_check": "2026-02-18T11:51:10.194Z"
     }
   ]
 }
