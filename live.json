@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-19T10:25:18.321Z",
+  "generated_at": "2026-02-19T10:30:25.474Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 21.5,
     "mem_total_gb": 16,
-    "mem_used_gb": 11.97,
-    "mem_free_gb": 4.03,
+    "mem_used_gb": 10.52,
+    "mem_free_gb": 5.48,
     "disk_total_gb": 228,
     "disk_used_gb": 11,
     "disk_free_gb": 145,
-    "load_avg": "[2.67,2.64,2.6]",
-    "uptime_seconds": 696137
+    "load_avg": "[3.25,2.96,2.74]",
+    "uptime_seconds": 696444
   },
   "gateway": {
     "status": "unknown",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-19T10:25:18.321Z"
+    "created_at": "2026-02-19T10:30:25.474Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-19T10:25:18.321Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-19T10:25:18.321Z"
+      "updated_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-19T10:25:18.322Z"
+      "updated_at": "2026-02-19T10:30:25.474Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-19T00:17:56.461Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: b4e32c01 conn=1bcbf11f…1eae id=dba16df7…4100",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-18T16:18:51.180-08:00 ⚠️ 🛠️ Exec: openclaw cron edit b4e32c01 --message 'You are the autonomous GM of the TEAS conversion goal. Read `goals/teas-conversion/PLAYBOOK.md` first, then `goals/tea… failed: Error: Error: unknown cron job id: b4e32c01",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T00:27:59.953Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 7b02655e conn=7546dfa0…8002 id=e3193776…1b27",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T00:28:00.739Z [ws] ⇄ res ✗ cron.update 2ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 3ac60660 conn=85b0a918…3844 id=4ac2fa60…894e",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T00:28:01.470Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: b165f406 conn=6289d76d…5c1e id=5f024c48…232d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T00:28:02.184Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: fd6b01a3 conn=ace92c21…70da id=76a52599…3602",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T00:28:02.911Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 002ef574 conn=311a44f0…22a4 id=ed906cb6…5974",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T07:59:24.252Z [ws] ⇄ res ✗ sessions.patch 15ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=8c77d6e4…3fb0 id=95f0e3f4…77e4",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T08:02:13.802Z [ws] ⇄ res ✗ sessions.patch 21ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2-pro conn=7eb444b6…7cf9 id=5ac1bc14…c294",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     },
     {
       "message": "2026-02-19T08:19:03.802Z [ws] ⇄ res ✗ sessions.patch 15ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai-codex/gpt-5.3-codex conn=bed44a19…793e id=c1c1afaa…9cde",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-19T10:25:18.322Z"
+      "created_at": "2026-02-19T10:30:25.474Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-19T10:25:16.937Z"
+      "last_check": "2026-02-19T10:30:24.048Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-19T10:25:17.226Z"
+      "last_check": "2026-02-19T10:30:24.395Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-19T10:25:16.666Z"
+      "last_check": "2026-02-19T10:30:23.878Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-19T10:25:16.306Z"
+      "last_check": "2026-02-19T10:30:23.581Z"
     }
   ]
 }
