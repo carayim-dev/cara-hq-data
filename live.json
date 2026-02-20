@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-20T10:51:52.791Z",
+  "generated_at": "2026-02-20T10:57:00.589Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 21.5,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.42,
-    "mem_free_gb": 0.58,
+    "mem_used_gb": 15.5,
+    "mem_free_gb": 0.5,
     "disk_total_gb": 228,
     "disk_used_gb": 11,
     "disk_free_gb": 143,
-    "load_avg": "[2.85,2.89,2.88]",
-    "uptime_seconds": 784131
+    "load_avg": "[2.9,2.98,2.93]",
+    "uptime_seconds": 784438
   },
   "gateway": {
     "status": "unknown",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-20T10:51:52.791Z"
+    "created_at": "2026-02-20T10:57:00.589Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-20T10:51:52.792Z"
+      "updated_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-20T10:51:52.792Z"
+      "updated_at": "2026-02-20T10:57:00.589Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-19T00:28:00.739Z [ws] ⇄ res ✗ cron.update 2ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 3ac60660 conn=85b0a918…3844 id=4ac2fa60…894e",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T00:28:01.470Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: b165f406 conn=6289d76d…5c1e id=5f024c48…232d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T00:28:02.184Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: fd6b01a3 conn=ace92c21…70da id=76a52599…3602",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T00:28:02.911Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 002ef574 conn=311a44f0…22a4 id=ed906cb6…5974",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T07:59:24.252Z [ws] ⇄ res ✗ sessions.patch 15ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2 conn=8c77d6e4…3fb0 id=95f0e3f4…77e4",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T08:02:13.802Z [ws] ⇄ res ✗ sessions.patch 21ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai/gpt-5.2-pro conn=7eb444b6…7cf9 id=5ac1bc14…c294",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T08:19:03.802Z [ws] ⇄ res ✗ sessions.patch 15ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai-codex/gpt-5.3-codex conn=bed44a19…793e id=c1c1afaa…9cde",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T17:16:15.193Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=FailoverError: LLM request timed out. runId=1cc1fc68-0839-472b-bbfa-3b3a214f594e error=FailoverError: LLM request timed out. conn=21b353fd…c160 id=c737e9ab…7621",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T17:16:15.777Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) runId=announce:v1:agent:cara:subagent:74f3544e-9148-4145-a2da-a6e15f703eaf:1cc1fc68-0839-472b-bbfa-3b3a214f594e error=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) conn=740efa26…91c7 id=7c513d27…684b",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     },
     {
       "message": "2026-02-19T23:03:46.793Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:cf5c3e24-7af2-42dc-a2dd-bb6f9653b613:71f40216-31f4-462a-8768-d22c1d8ed35b error=Error: Delivering to Telegram requires target <chatId> conn=0c9b1099…44de id=79537511…4671",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-20T10:51:52.792Z"
+      "created_at": "2026-02-20T10:57:00.589Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-20T10:51:51.281Z"
+      "last_check": "2026-02-20T10:56:59.109Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-20T10:51:51.668Z"
+      "last_check": "2026-02-20T10:56:59.477Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-20T10:51:50.998Z"
+      "last_check": "2026-02-20T10:56:58.928Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-20T10:51:50.677Z"
+      "last_check": "2026-02-20T10:56:58.586Z"
     }
   ]
 }
