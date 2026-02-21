@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-21T23:09:47.709Z",
+  "generated_at": "2026-02-21T23:14:55.703Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 21.8,
     "mem_total_gb": 16,
-    "mem_used_gb": 14.3,
-    "mem_free_gb": 1.7,
+    "mem_used_gb": 14.91,
+    "mem_free_gb": 1.09,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 137,
-    "load_avg": "[2.88,2.78,2.84]",
-    "uptime_seconds": 914805
+    "load_avg": "[2.6,2.72,2.79]",
+    "uptime_seconds": 915113
   },
   "gateway": {
     "status": "unknown",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-21T23:09:47.709Z"
+    "created_at": "2026-02-21T23:14:55.703Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-21T23:09:47.709Z"
+      "updated_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-21T23:09:47.709Z"
+      "updated_at": "2026-02-21T23:14:55.703Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "- Deployed as v60 (Heroku v63) — no errors",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T15:03:41.020Z [ws] ⇄ res ✗ cron.update 5ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: c8baef5b conn=0ff673f7…8d5d id=032bb0b8…8c3b",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T15:03:41.027Z [ws] ⇄ res ✗ cron.update 0ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 4e9c5ead conn=44a689f1…12e1 id=f024720d…889d",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T15:03:41.031Z [ws] ⇄ res ✗ cron.update 0ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 112c2620 conn=0e25506d…f0b4 id=f6c35046…28bd",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T15:03:41.036Z [ws] ⇄ res ✗ cron.update 1ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: b4e32c01 conn=67d8b144…2c32 id=d64698ac…917e",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T12:04:38.469-08:00 I don't see any webhook-related errors in the recent logs. Let me search more specifically for webhook POST requests and around Feb 18.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "The fix: return `True` when the profile doesn't exist (it's not an error — there's nothing to revoke).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T20:04:45.532Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:77c695f7-c1d6-4a00-b202-12a4d3ba350c:8b6a90a4-934a-41a8-b512-c857978b8646 error=Error: Delivering to Telegram requires target <chatId> conn=0d61ee59…ac08 id=3c7c1d8b…52bd",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T14:01:53.931-08:00 That returned an error (probably needs POST). Let me go back to the results page and try the access code or just navigate to the dashboard directly:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     },
     {
       "message": "2026-02-21T22:02:31.620Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:1f1ceb9b-a0d8-422c-a619-0ff747eb77d0:63bde1c8-c8e3-4698-9659-829e75d2583d error=Error: Delivering to Telegram requires target <chatId> conn=e399589d…8d19 id=aa6fc552…e940",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T23:09:47.709Z"
+      "created_at": "2026-02-21T23:14:55.703Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T23:09:46.309Z"
+      "last_check": "2026-02-21T23:14:54.298Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-21T23:09:46.606Z"
+      "last_check": "2026-02-21T23:14:54.607Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T23:09:46.119Z"
+      "last_check": "2026-02-21T23:14:54.024Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-21T23:09:45.770Z"
+      "last_check": "2026-02-21T23:14:53.678Z"
     }
   ]
 }
