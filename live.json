@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-21T09:38:28.090Z",
+  "generated_at": "2026-02-21T09:43:36.384Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 21.7,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.25,
-    "mem_free_gb": 0.75,
+    "mem_used_gb": 15.94,
+    "mem_free_gb": 0.06,
     "disk_total_gb": 228,
     "disk_used_gb": 11,
     "disk_free_gb": 142,
-    "load_avg": "[2.56,2.84,2.92]",
-    "uptime_seconds": 866125
+    "load_avg": "[2.97,2.94,2.94]",
+    "uptime_seconds": 866434
   },
   "gateway": {
     "status": "unknown",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-21T09:38:28.090Z"
+    "created_at": "2026-02-21T09:43:36.384Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.384Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-21T09:38:28.090Z"
+      "updated_at": "2026-02-21T09:43:36.384Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-21T09:38:28.090Z"
+      "updated_at": "2026-02-21T09:43:36.384Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-20T23:04:42.552-08:00 Now let me check the staging site and Heroku logs for errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "2026-02-20T23:04:42.555-08:00 The auth fix works — no more ValueError. The onboarding page loads properly for the auto-created test user. The flow is: anonymous → auto-login → check SuperTutorProfile → redirect to onboarding (correct).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "Now let me think about what to do this session. The context says Edward deployed v52-v55 tonight fixing various issues. The main bug I just found and fixed was the auth backend error (v56). ",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "**Step 4 — Identify Bottleneck:** The core learning loop is *almost* there (concept pre-teaching ✅, adaptive selection ✅, Socratic feedback ✅). But Edward is actively testing tonight and hitting errors. The biggest bottleneck right now is **the app crashes for anonymous users** — that auth backend error was blocking the entire flow. That's now fixed.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "**v56 deployed** — Fixed a critical `ValueError` that crashed the app for all anonymous users hitting `/start-session/`. The Django `login()` call needed an explicit `backend` parameter because the app has 2 auth backends configured. One-line fix, deployed and verified via browser.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "2026-02-21T07:04:48.483Z [ws] ⇄ res ✗ sessions.patch 12ms errorCode=INVALID_REQUEST errorMessage=label already in use: super-tutor-gm conn=3040a197…0ad0 id=f33600ea…e814",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "2026-02-20T23:21:32.915-08:00 Now let me check the staging site and Heroku logs for errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "2026-02-20T23:28:50.932-08:00 POST only. The deploy is live with a 200 response and no 500 errors in the URL chain. The view function loads. The template exists. The redirect-to-onboarding path works for users without profiles. For users WITH profiles, the study plan view will render the full adaptive plan.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "Let me verify there are no template syntax errors by checking the `widthratio` usage is valid Django:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     },
     {
       "message": "- Deployed as v60 (Heroku v63) — no errors",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T09:38:28.090Z"
+      "created_at": "2026-02-21T09:43:36.385Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T09:38:26.701Z"
+      "last_check": "2026-02-21T09:43:34.961Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-21T09:38:27.024Z"
+      "last_check": "2026-02-21T09:43:35.297Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T09:38:26.428Z"
+      "last_check": "2026-02-21T09:43:34.785Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-21T09:38:26.127Z"
+      "last_check": "2026-02-21T09:43:34.442Z"
     }
   ]
 }
