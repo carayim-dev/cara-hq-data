@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-21T06:33:17.307Z",
+  "generated_at": "2026-02-21T06:38:25.908Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 21.7,
     "mem_total_gb": 16,
-    "mem_used_gb": 14.83,
-    "mem_free_gb": 1.17,
+    "mem_used_gb": 15.06,
+    "mem_free_gb": 0.94,
     "disk_total_gb": 228,
     "disk_used_gb": 11,
     "disk_free_gb": 141,
-    "load_avg": "[2.59,2.74,2.88]",
-    "uptime_seconds": 855014
+    "load_avg": "[2.48,2.71,2.82]",
+    "uptime_seconds": 855323
   },
   "gateway": {
     "status": "unknown",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-21T06:33:17.307Z"
+    "created_at": "2026-02-21T06:38:25.908Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-21T06:33:17.307Z"
+      "updated_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-21T06:33:17.307Z"
+      "updated_at": "2026-02-21T06:38:25.908Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-19T08:19:03.802Z [ws] ⇄ res ✗ sessions.patch 15ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openai-codex/gpt-5.3-codex conn=bed44a19…793e id=c1c1afaa…9cde",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-19T17:16:15.193Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=FailoverError: LLM request timed out. runId=1cc1fc68-0839-472b-bbfa-3b3a214f594e error=FailoverError: LLM request timed out. conn=21b353fd…c160 id=c737e9ab…7621",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-19T17:16:15.777Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) runId=announce:v1:agent:cara:subagent:74f3544e-9148-4145-a2da-a6e15f703eaf:1cc1fc68-0839-472b-bbfa-3b3a214f594e error=Error: All models failed (1): anthropic/claude-opus-4-6: Provider anthropic is in cooldown (all profiles unavailable) (rate_limit) conn=740efa26…91c7 id=7c513d27…684b",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-19T23:03:46.793Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:cf5c3e24-7af2-42dc-a2dd-bb6f9653b613:71f40216-31f4-462a-8768-d22c1d8ed35b error=Error: Delivering to Telegram requires target <chatId> conn=0c9b1099…44de id=79537511…4671",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-20T12:09:20.260-08:00 Page loads fine, \"Subscribe with Card\" button exists, no JS errors. Let me check what the button does and look at the source code.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "- ✅ No JS errors on the page",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-20T20:09:51.881Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:29784917-ac68-4f85-8b9a-0a65ceeb8e05:dc2a3849-2ca9-473a-8534-e6b17e3baf01 error=Error: Delivering to Telegram requires target <chatId> conn=dc0ded38…0170 id=8389977e…6bde",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-20T21:48:03.638-08:00 The upload had a signature issue but the build was created. Let me check if the build used the correct source. Actually the signature error means the upload failed — the build will fail. Let me try a different approach:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-21T05:48:07.005Z [ws] ⇄ res ✗ sessions.patch 12ms errorCode=INVALID_REQUEST errorMessage=label already in use: super-tutor-gm conn=7a9bc8b7…c89f id=5df317a5…0832",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     },
     {
       "message": "2026-02-21T05:55:51.927Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:b6f7ba27-2632-4843-93d7-e79cd1e08167:23912bab-a31d-406b-93db-d297f5442ca6 error=Error: Delivering to Telegram requires target <chatId> conn=16635851…9467 id=ba142538…beda",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-21T06:33:17.307Z"
+      "created_at": "2026-02-21T06:38:25.908Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T06:33:15.917Z"
+      "last_check": "2026-02-21T06:38:24.516Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-21T06:33:16.215Z"
+      "last_check": "2026-02-21T06:38:24.812Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-21T06:33:15.634Z"
+      "last_check": "2026-02-21T06:38:24.340Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-21T06:33:15.320Z"
+      "last_check": "2026-02-21T06:38:24.042Z"
     }
   ]
 }
