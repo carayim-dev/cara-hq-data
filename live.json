@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-02-28T07:28:35.736Z",
+  "generated_at": "2026-02-28T07:33:43.462Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 9.1,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.42,
-    "mem_free_gb": 0.58,
+    "mem_used_gb": 15.44,
+    "mem_free_gb": 0.56,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 135,
-    "load_avg": "[3.04,2.68,2.61]",
-    "uptime_seconds": 380361
+    "load_avg": "[2.25,2.55,2.57]",
+    "uptime_seconds": 380668
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": null,
     "uptime": null,
-    "created_at": "2026-02-28T07:28:35.736Z"
+    "created_at": "2026-02-28T07:33:43.462Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-02-28T07:28:35.736Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-02-28T07:28:35.736Z"
+      "updated_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-02-28T07:28:35.736Z"
+      "updated_at": "2026-02-28T07:33:43.462Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "The fix: return `True` when the profile doesn't exist (it's not an error — there's nothing to revoke).",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-21T20:04:45.532Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:77c695f7-c1d6-4a00-b202-12a4d3ba350c:8b6a90a4-934a-41a8-b512-c857978b8646 error=Error: Delivering to Telegram requires target <chatId> conn=0d61ee59…ac08 id=3c7c1d8b…52bd",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-21T14:01:53.931-08:00 That returned an error (probably needs POST). Let me go back to the results page and try the access code or just navigate to the dashboard directly:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-21T22:02:31.620Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:1f1ceb9b-a0d8-422c-a619-0ff747eb77d0:63bde1c8-c8e3-4698-9659-829e75d2583d error=Error: Delivering to Telegram requires target <chatId> conn=e399589d…8d19 id=aa6fc552…e940",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-21T17:49:43.133-08:00 ⚠️ 🛠️ Exec: `cd /tmp/nurse-app && git log --oneline -3 && echo \"---\" && grep -r \"uncertainty\\|SRS\\|variety\\|adaptive\" --include=\"*.py\" -l | head -20` failed: fatal: not a git repository (or any of the parent directories): .git",
       "severity": "critical",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-22T01:49:48.893Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:72afc097-f4a7-4580-a9bc-892cf7390ef7:a41051c0-cc62-4830-afd5-7580334f15d3 error=Error: Delivering to Telegram requires target <chatId> conn=b3b3d2a1…a980 id=13c2597d…ba6a",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-23T05:54:15.047Z [ws] ⇄ res ✗ cron.add 2ms errorCode=INVALID_REQUEST errorMessage=schedule.at is in the past: 2026-02-22T22:50:00.000Z (424 minutes ago). Current time: 2026-02-23T05:54:15.045Z conn=32084466…f7f3 id=22e2e52a…bd9a",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-23T21:45:47.991Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 5252a96f conn=6253732e…dae8 id=5d31b728…aa8c",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "2026-02-26T01:18:40.997Z [ws] ⇄ res ✗ cron.add 3ms errorCode=UNAVAILABLE errorMessage=Error: cron channel delivery config is only supported for sessionTarget=\"isolated\" conn=0518b337…f470 id=d78b9875…af82",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.462Z"
     },
     {
       "message": "- `templates/core/complete_account.html`: `{{ error|safe }}` → `{{ error }}` (auto-escaped)",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-02-28T07:28:35.737Z"
+      "created_at": "2026-02-28T07:33:43.463Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-28T07:28:34.233Z"
+      "last_check": "2026-02-28T07:33:41.958Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-02-28T07:28:34.526Z"
+      "last_check": "2026-02-28T07:33:42.259Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-02-28T07:28:33.972Z"
+      "last_check": "2026-02-28T07:33:41.793Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-02-28T07:28:33.553Z"
+      "last_check": "2026-02-28T07:33:41.401Z"
     }
   ]
 }
