@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-02T05:17:37.351Z",
+  "generated_at": "2026-03-02T05:22:45.169Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 9.6,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.46,
-    "mem_free_gb": 0.54,
+    "mem_used_gb": 14.68,
+    "mem_free_gb": 1.32,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 131,
-    "load_avg": "[2.82,3.16,2.95]",
-    "uptime_seconds": 545299
+    "load_avg": "[2.31,2.61,2.75]",
+    "uptime_seconds": 545610
   },
   "gateway": {
     "status": "running",
     "version": null,
-    "pid": null,
+    "pid": 59575,
     "uptime": null,
-    "created_at": "2026-03-02T05:17:37.351Z"
+    "created_at": "2026-03-02T05:22:45.169Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-03-02T05:17:37.351Z"
+      "updated_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-03-02T05:17:37.351Z"
+      "updated_at": "2026-03-02T05:22:45.169Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "2026-02-21T17:49:43.133-08:00 ⚠️ 🛠️ Exec: `cd /tmp/nurse-app && git log --oneline -3 && echo \"---\" && grep -r \"uncertainty\\|SRS\\|variety\\|adaptive\" --include=\"*.py\" -l | head -20` failed: fatal: not a git repository (or any of the parent directories): .git",
       "severity": "critical",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-02-22T01:49:48.893Z [ws] ⇄ res ✗ agent errorCode=UNAVAILABLE errorMessage=Error: Delivering to Telegram requires target <chatId> runId=announce:v1:agent:cara:subagent:72afc097-f4a7-4580-a9bc-892cf7390ef7:a41051c0-cc62-4830-afd5-7580334f15d3 error=Error: Delivering to Telegram requires target <chatId> conn=b3b3d2a1…a980 id=13c2597d…ba6a",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-02-23T05:54:15.047Z [ws] ⇄ res ✗ cron.add 2ms errorCode=INVALID_REQUEST errorMessage=schedule.at is in the past: 2026-02-22T22:50:00.000Z (424 minutes ago). Current time: 2026-02-23T05:54:15.045Z conn=32084466…f7f3 id=22e2e52a…bd9a",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-02-23T21:45:47.991Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 5252a96f conn=6253732e…dae8 id=5d31b728…aa8c",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-02-26T01:18:40.997Z [ws] ⇄ res ✗ cron.add 3ms errorCode=UNAVAILABLE errorMessage=Error: cron channel delivery config is only supported for sessionTarget=\"isolated\" conn=0518b337…f470 id=d78b9875…af82",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "- `templates/core/complete_account.html`: `{{ error|safe }}` → `{{ error }}` (auto-escaped)",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-03-01T15:51:43.511-08:00 This browser is logged in as Jordan. I need to use an incognito/fresh session. Let me use web_fetch instead to quickly check the page loads without errors, and also navigate to the diagnostic test as anonymous:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-03-01T15:51:43.511-08:00 The app is running fine (404 on `/teas/diagnostic/` is because that's the URL structure — the diagnostic test is at a different URL path). The deploy succeeded with no errors. Let me test the results page by using the browser to take a quick quiz:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-03-01T19:50:58.917-08:00 It's redirecting to HTTPS. Let me check with HTTPS or the actual response code pattern - 301 to HTTPS is Django's SECURE_SSL_REDIRECT setting. The app is running correctly — the redirect is expected (Heroku will handle HTTPS). Let me check for template errors by looking at the server log:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.169Z"
     },
     {
       "message": "2026-03-01T19:50:58.918-08:00 The template renders fine - the error is just a staticfiles manifest issue in local dev (normal). Let me check the template syntax separately:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-02T05:17:37.351Z"
+      "created_at": "2026-03-02T05:22:45.170Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-02T05:17:35.794Z"
+      "last_check": "2026-03-02T05:22:43.544Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-03-02T05:17:36.100Z"
+      "last_check": "2026-03-02T05:22:43.854Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-02T05:17:35.512Z"
+      "last_check": "2026-03-02T05:22:43.345Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-03-02T05:17:35.112Z"
+      "last_check": "2026-03-02T05:22:42.954Z"
     }
   ]
 }
