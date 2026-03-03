@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-03T21:05:07.844Z",
+  "generated_at": "2026-03-03T21:10:16.027Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 10.3,
     "mem_total_gb": 16,
-    "mem_used_gb": 15.14,
-    "mem_free_gb": 0.86,
+    "mem_used_gb": 14.32,
+    "mem_free_gb": 1.68,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 129,
-    "load_avg": "[1.96,1.54,1.45]",
-    "uptime_seconds": 688553
+    "load_avg": "[1.24,1.76,1.62]",
+    "uptime_seconds": 688861
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 2362,
     "uptime": null,
-    "created_at": "2026-03-03T21:05:07.844Z"
+    "created_at": "2026-03-03T21:10:16.027Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-03-03T21:05:07.844Z"
+      "updated_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-03-03T21:05:07.844Z"
+      "updated_at": "2026-03-03T21:10:16.027Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "✅ **Flow 14 (Login)**: Verified at start — page renders, login works without CSRF error.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "| **Login (CSRF fix)** | ✅ Works — no CSRF error, login succeeds |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "2026-03-03T07:38:43.260Z [ws] ⇄ res ✗ config.patch 4ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=9a081556…3c90 id=178181f4…6db8",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "2026-03-03T07:44:08.058Z [ws] ⇄ res ✗ config.patch 3ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=4610b6dd…db7b id=a4e166da…4b27",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "2026-03-03T15:02:53.568Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 27f35aa7 conn=459ecdb4…bd21 id=732a8be6…0f85",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "2026-03-03T09:28:16.522-08:00 ✅ Flow 14 (Login): Fresh login succeeded with no CSRF error, redirected to dashboard. Let me also quickly verify the signup honeypot field:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "| 14 | Login | ✅ Fresh login, no CSRF error |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "**One note**: Saw a CSRF 403 on an initial login attempt on a stale tab — this was a false alarm (old CSRF token from a prior session state). Fresh login from anonymous state works perfectly with no errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "Now let me verify the signup flow completes without error by actually submitting a test signup. I need to use a unique email. Let me also verify what v787 did (welcome email on signup):",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     },
     {
       "message": "- No 500 error, no CSRF error",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T21:05:07.844Z"
+      "created_at": "2026-03-03T21:10:16.027Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-03T21:05:06.178Z"
+      "last_check": "2026-03-03T21:10:14.382Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-03-03T21:05:06.476Z"
+      "last_check": "2026-03-03T21:10:14.684Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-03T21:05:06.005Z"
+      "last_check": "2026-03-03T21:10:14.122Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-03-03T21:05:05.565Z"
+      "last_check": "2026-03-03T21:10:13.636Z"
     }
   ]
 }
