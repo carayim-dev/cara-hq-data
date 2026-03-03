@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-03T11:40:26.296Z",
+  "generated_at": "2026-03-03T11:45:34.096Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 10.4,
     "mem_total_gb": 16,
-    "mem_used_gb": 14.47,
-    "mem_free_gb": 1.53,
+    "mem_used_gb": 13.75,
+    "mem_free_gb": 2.25,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 129,
-    "load_avg": "[1.83,1.87,1.94]",
-    "uptime_seconds": 654671
+    "load_avg": "[2.92,2.04,1.95]",
+    "uptime_seconds": 654979
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 2362,
     "uptime": null,
-    "created_at": "2026-03-03T11:40:26.296Z"
+    "created_at": "2026-03-03T11:45:34.096Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-03-03T11:40:26.296Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-03-03T11:40:26.296Z"
+      "updated_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-03-03T11:40:26.296Z"
+      "updated_at": "2026-03-03T11:45:34.096Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "1. **Checkout broken** — `Subscribe with Card` fails with Stripe error: *\"This promotion code is inactive\"*. Looks like a server-side promo code is being injected into the Stripe session creation call and the code has expired. Trial users **cannot convert** to paid.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "- ✅ **Checkout → Stripe** — confirmed fixed (Subscribe with Card redirects cleanly to Stripe at $19.99/mo, no expired promo error)",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-02T19:22:16.837-08:00 Login returns \"Invalid email or password\" — no CSRF error (good sign!). But credentials don't work. Let me check Heroku logs and the test account:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-02T19:22:16.838-08:00 ✅ **LOGIN WORKS!** Redirected to dashboard as Jordan. No CSRF error. Now let me run through all 14 flows. I'll navigate through each:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-02T19:22:16.840-08:00 ✅ **Flow 3 (Study Guide - all 4 sections)**: All topic pages render without 500 errors. Now flashcards:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-02T19:22:16.845-08:00 Page returns 200 and loads \"Create Account\" page. ✅ **Flow 13 (Signup)**: Renders for anonymous (200 OK, no CSRF error). Now the login page check (already verified):",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "✅ **Flow 14 (Login)**: Verified at start — page renders, login works without CSRF error.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "| **Login (CSRF fix)** | ✅ Works — no CSRF error, login succeeds |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-03T07:38:43.260Z [ws] ⇄ res ✗ config.patch 4ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=9a081556…3c90 id=178181f4…6db8",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     },
     {
       "message": "2026-03-03T07:44:08.058Z [ws] ⇄ res ✗ config.patch 3ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=4610b6dd…db7b id=a4e166da…4b27",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-03T11:40:26.297Z"
+      "created_at": "2026-03-03T11:45:34.096Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-03T11:40:24.673Z"
+      "last_check": "2026-03-03T11:45:32.467Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-03-03T11:40:24.976Z"
+      "last_check": "2026-03-03T11:45:32.784Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-03T11:40:24.503Z"
+      "last_check": "2026-03-03T11:45:32.192Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-03-03T11:40:23.948Z"
+      "last_check": "2026-03-03T11:45:31.752Z"
     }
   ]
 }
