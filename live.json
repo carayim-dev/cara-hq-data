@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-03-04T03:09:29.610Z",
+  "generated_at": "2026-03-04T03:14:37.424Z",
   "system": {
     "node_name": "cara",
     "cpu_usage": 10.2,
     "mem_total_gb": 16,
-    "mem_used_gb": 14.63,
-    "mem_free_gb": 1.37,
+    "mem_used_gb": 15.52,
+    "mem_free_gb": 0.48,
     "disk_total_gb": 228,
     "disk_used_gb": 16,
     "disk_free_gb": 128,
-    "load_avg": "[1.28,1.34,1.46]",
-    "uptime_seconds": 710414
+    "load_avg": "[1.24,1.35,1.44]",
+    "uptime_seconds": 710722
   },
   "gateway": {
     "status": "running",
     "version": null,
     "pid": 2362,
     "uptime": null,
-    "created_at": "2026-03-04T03:09:29.610Z"
+    "created_at": "2026-03-04T03:14:37.424Z"
   },
   "sessions": [],
   "tasks": [],
@@ -26,7 +26,7 @@
       "event_type": "sync",
       "summary": "Data sync completed",
       "source": "sync.js",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     }
   ],
   "fleet": [
@@ -34,13 +34,13 @@
       "node_name": "cara",
       "role": "primary",
       "status": "online",
-      "updated_at": "2026-03-04T03:09:29.610Z"
+      "updated_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "node_name": "fox",
       "role": "secondary",
       "status": "online",
-      "updated_at": "2026-03-04T03:09:29.610Z"
+      "updated_at": "2026-03-04T03:14:37.424Z"
     }
   ],
   "calendar": [],
@@ -49,61 +49,61 @@
       "message": "| **Login (CSRF fix)** | ✅ Works — no CSRF error, login succeeds |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "2026-03-03T07:38:43.260Z [ws] ⇄ res ✗ config.patch 4ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=9a081556…3c90 id=178181f4…6db8",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "2026-03-03T07:44:08.058Z [ws] ⇄ res ✗ config.patch 3ms errorCode=INVALID_REQUEST errorMessage=invalid config conn=4610b6dd…db7b id=a4e166da…4b27",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "2026-03-03T15:02:53.568Z [ws] ⇄ res ✗ cron.update 3ms errorCode=UNAVAILABLE errorMessage=Error: unknown cron job id: 27f35aa7 conn=459ecdb4…bd21 id=732a8be6…0f85",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "2026-03-03T09:28:16.522-08:00 ✅ Flow 14 (Login): Fresh login succeeded with no CSRF error, redirected to dashboard. Let me also quickly verify the signup honeypot field:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "| 14 | Login | ✅ Fresh login, no CSRF error |",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "**One note**: Saw a CSRF 403 on an initial login attempt on a stale tab — this was a false alarm (old CSRF token from a prior session state). Fresh login from anonymous state works perfectly with no errors.",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "Now let me verify the signup flow completes without error by actually submitting a test signup. I need to use a unique email. Let me also verify what v787 did (welcome email on signup):",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "- No 500 error, no CSRF error",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.424Z"
     },
     {
       "message": "2026-03-03T19:07:07.889-08:00 Flow 0 ✅ — 404 page shows custom error (no Django debug page), and user is already logged in as Jordan (trial account). Now testing all flows:",
       "severity": "error",
       "source": "gateway",
-      "created_at": "2026-03-04T03:09:29.610Z"
+      "created_at": "2026-03-04T03:14:37.425Z"
     }
   ],
   "services": [
@@ -111,25 +111,25 @@
       "name": "Cara HQ Dashboard",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-04T03:09:27.985Z"
+      "last_check": "2026-03-04T03:14:35.689Z"
     },
     {
       "name": "Fox Mini (SSH)",
       "healthy": true,
       "http_code": "ok",
-      "last_check": "2026-03-04T03:09:28.283Z"
+      "last_check": "2026-03-04T03:14:36.053Z"
     },
     {
       "name": "Nurse.org",
       "healthy": true,
       "http_code": "200",
-      "last_check": "2026-03-04T03:09:27.730Z"
+      "last_check": "2026-03-04T03:14:35.513Z"
     },
     {
       "name": "TEAS Study Site",
       "healthy": false,
       "http_code": "error",
-      "last_check": "2026-03-04T03:09:27.391Z"
+      "last_check": "2026-03-04T03:14:35.117Z"
     }
   ]
 }
